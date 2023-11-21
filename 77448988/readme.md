@@ -10,12 +10,18 @@ Run from the current dir: ```doxygen doc/Doxygen.in```.
 
 You can find output html doc in `html` folder. Just open `html/index.html` file.
 
-Output doc screenshots you can find this:
+### Output doc screenshots
 
 1. [Main Page](img/output_mainpage.png)
 2. [Data Fields Page](img/output_datafields.png)
 
-No parsed .aidl data in the doc. But works if you add `public` before `inteface`/`enum` for `.aidl` but android cannot parse then.
+### Output html doc
+
+[Open index.html](output/index.html)
+
+### Conclusion
+
+No parsed `.aidl` data in the doc. But works if you add `public` before `inteface`/`enum` for `.aidl` but android cannot parse then.
 
 ## Link
 
